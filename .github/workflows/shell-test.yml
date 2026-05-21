@@ -8,5 +8,5 @@ jobs:
               run: echo "${SHELL}"    # 셸에 bash를 지정
             - shell: python
               run: |
-                import os
+                import os  
                 print(os.environ['PATH'])
